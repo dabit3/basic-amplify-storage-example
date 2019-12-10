@@ -65,7 +65,7 @@ class App extends React.Component {
 export default App;
 ```
 
-### Viewing a single file or image
+### Viewing a single file or image from a folder or array of images
 
 ```js
 import React from 'react';
