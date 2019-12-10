@@ -1,0 +1,20 @@
+{
+    "test": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-storage-example-test-124535-authRole",
+            "UnauthRoleArn": "arn:aws:iam::557458351015:role/amplify-storage-example-test-124535-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::557458351015:role/amplify-storage-example-test-124535-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-storage-example-test-124535-deployment",
+            "UnauthRoleName": "amplify-storage-example-test-124535-unauthRole",
+            "StackName": "amplify-storage-example-test-124535",
+            "StackId": "arn:aws:cloudformation:us-east-1:557458351015:stack/amplify-storage-example-test-124535/05665540-1b8e-11ea-94cc-0ef4281dfc4d",
+            "AmplifyAppId": "d22349n7ozjcwo"
+        },
+        "categories": {
+            "auth": {
+                "storageexample36233a8d": {}
+            }
+        }
+    }
+}

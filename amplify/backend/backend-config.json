@@ -1,13 +1,13 @@
 {
 	"auth": {
-		"storageexample296256e3": {
+		"storageexample36233a8d": {
 			"service": "Cognito",
 			"providerPlugin": "awscloudformation",
 			"dependsOn": []
 		}
 	},
 	"storage": {
-		"s342fab197": {
+		"s38adbe651": {
 			"service": "S3",
 			"providerPlugin": "awscloudformation"
 		}
