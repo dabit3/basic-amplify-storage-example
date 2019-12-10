@@ -1,0 +1,15 @@
+{
+	"auth": {
+		"storageexample296256e3": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		}
+	},
+	"storage": {
+		"s342fab197": {
+			"service": "S3",
+			"providerPlugin": "awscloudformation"
+		}
+	}
+}
