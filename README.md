@@ -71,7 +71,6 @@ import { PhotoPicker } from 'aws-amplify-react';
 
 class App extends React.Component {
   state = {
-    files: [],
     file: {}
   }
   onChange(data) {
@@ -94,15 +93,7 @@ class App extends React.Component {
         />
         <button onClick={this.saveFile}>
           Save File
-        </button>
-        <div>
-        {
-          this.state.files.map((file, i) => (
-           <p onClick={() => this.selectFile(file)}>{file.key}</p>
-          ))
-        }
-        </div>
-        
+        </button>        
       </div>
     )
   }
@@ -169,7 +160,7 @@ class App extends React.Component {
 export default App;
 ```
 
-### Storing an image
+### Manually working with the Storage API - storing an image
 
 ```js
 // src/App.js
