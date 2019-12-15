@@ -26,6 +26,31 @@ Initialize a new amplify app:
 $ amplify init
 ```
 
+Next, add auth:
+
+```sh
+$ amplify add auth
+
+? Do you want to use the default authentication and security configuration? Default configuration
+? How do you want users to be able to sign in? Username
+? Do you want to configure advanced settings? No
+```
+
+Next, add storage with Amazon S3:
+
+```sh
+$ amplify add storage
+? Please select from one of the below mentioned services: Content
+? Please provide a friendly name for your resource that will be used to label this category in the project: <resource_name>
+? Please provide bucket name: <unique_bucket_name>
+? Who should have access: Auth and guest users
+? What kind of access do you want for Authenticated users? create, update, read, delete
+? What kind of access do you want for Guest users? create, update, read, delete
+? Do you want to add a Lambda Trigger for your S3 Bucket? Y
+? Select from the following options: Create a new function
+? Do you want to edit the local S3Trigger751aed92 lambda function now? N
+```
+
 ### Configure the React app with Amplify
 
 Open __src/index.js__ and add the following three lines of code:
